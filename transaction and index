@@ -1,0 +1,27 @@
+TRANSACTION 
+
+START TRANSACTION;
+SELECT Ambulance_number,Ambulance_brigade FROM Ambulance WHERE Ambulance_capacity='big';
+SELECT Patient_name,Relative_name FROM Patient INNER JOIN Relative ON Relative.Patient_id=Patient.Patient_id ;
+COMMIT;
+
+START TRANSACTION;
+INSERT INTO Patient VALUES(120,'Aisultan','Almaty,10th microdistrict',87783422347,'male');
+DELETE FROM PATIENT WHERE Patient_id=100;
+DELETE FROM Hospital_service WHERE Patient.id=100;
+COMMIT;
+
+START TRANSACTION;
+UPDATE Payment SET Payment_method='cash' WHERE Bill_number=6;
+UPDATE Relative SET Relation='brother' WHERE Relative_name='Alpamys';
+COMMIT;
+
+
+
+INDEXES
+CREATE INDEX patient_index ON Patient(Patient_address);
+CREATE INDEX test_index ON Hospital_test(Test_type);
+CREATE INDEX Diag_index ON Diagnosis(Diagnosis);
+CREATE INDEX Reg_index ON Registration(Registration_date);
+CREATE INDEX pname_index ON Patient(Patient_name);
+CREATE INDEX payment_index ON Payment(Payment_method);
