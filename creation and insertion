@@ -1,0 +1,1010 @@
+1)CREATE TABLE Patient(
+    Patient_id NUMBER(20) PRIMARY KEY NOT NULL,
+    Patient_name CHAR(15),
+    Patient_address CHAR(30),
+    Patient_contact NUMBER(30),
+    Patient_gender CHAR(10)
+);
+INSERT INTO Patient VALUES(100,'Aikerim','Almaty,10th microdistrict',87783422345,'female');
+INSERT INTO Patient VALUES(101,'Damir','Almaty,Kaskelen',87783457858,'male');
+INSERT INTO Patient VALUES(102,'Alina','Almaty,9th microdistrict',87784556989,'female');
+INSERT INTO Patient VALUES(103,'Ernar','Astana,13th street',87783452345,'male');
+INSERT INTO Patient VALUES(105,'Dastan','Almaty,center',87781478585,'male');
+INSERT INTO Patient VALUES(104,'Khasan','Almaty,10th microdistrict',87783446363,'male');
+INSERT INTO Patient VALUES(106,'Darina','Astana,15th microdistrict',87783452314,'female');
+INSERT INTO Patient VALUES(107,'Almira','Almaty,Abylai khan dangyly',87473235601,'female');
+INSERT INTO Patient VALUES(108,'Khabiba','Almaty,10th microdistrict',87783452344,'female');
+INSERT INTO Patient VALUES(109,'Nurdaulet','Atyrau,Erkinkala',87781452345,'male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (1, 'Genvieve', 'Zaindainxoi', 1, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (2, 'Raine', 'Ryglice', 2, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (3, 'Mandel', 'Tenancingo', 3, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (4, 'Llewellyn', 'Raemude', 4, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (5, 'Gerome', 'Vievis', 5, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (6, 'Cleveland', 'Karibib', 6, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (7, 'Maurie', 'Magdaleno Aguilar', 7, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (8, 'Mead', 'Thompson', 8, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (9, 'Luce', 'Sanli', 9, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (10, 'Fritz', 'Bełżyce', 10, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (11, 'Jillie', 'Karangagung Timur', 11, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (12, 'Heinrik', 'Shōbara', 12, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (13, 'Nelson', 'Huoxian', 13, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (14, 'Kori', 'Silao', 14, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (15, 'Dunn', 'Darpas', 15, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (16, 'Darelle', 'San Jerónimo', 16, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (17, 'Shelagh', 'Slovenska Bistrica', 17, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (18, 'Fabe', 'Shanyang', 18, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (19, 'Bridget', 'Kochani', 19, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (20, 'Sebastian', 'Višnjićevo', 20, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (21, 'Grannie', 'Huangyang', 21, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (22, 'Nan', 'Gapan', 22, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (23, 'Marcia', 'Gangou', 23, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (24, 'William', 'Notre Dame', 24, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (25, 'Kenny', 'Melíssi', 25, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (26, 'Donavon', 'Karangtengah', 26, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (27, 'Abelard', 'Beixin', 27, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (28, 'Melamie', 'Sydney', 28, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (29, 'Florinda', 'Lila', 29, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (30, 'Kipp', 'Dole', 30, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (31, 'Neddy', 'Nyachera', 31, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (32, 'Kincaid', 'Banī Mazār', 32, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (33, 'Fredericka', 'Carrizal', 33, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (34, 'Nap', 'Khirbat Tīn Nūr', 34, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (35, 'Marlie', 'Mszana Dolna', 35, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (36, 'Basil', 'Cabeças Verdes', 36, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (37, 'Sherri', 'Yangzhou', 37, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (38, 'Wandie', 'Napoles', 38, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (39, 'Randolf', 'Tokyo', 39, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (40, 'Demetrius', 'Płock', 40, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (41, 'Hailey', 'Kanshi', 41, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (42, 'Philis', 'Yŏnggwang-ŭp', 42, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (43, 'Louisette', 'Luodian', 43, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (44, 'Sheba', 'Mkushi', 44, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (45, 'Bale', 'Puqi', 45, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (46, 'Leola', 'Groznyy', 46, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (47, 'Trudie', 'San Antonio', 47, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (48, 'Gregorius', 'Konëvo', 48, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (49, 'Teri', 'Ouro Branco', 49, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (50, 'Bertha', 'Umeå', 50, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (51, 'Isadore', 'Mętków', 51, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (52, 'Antone', 'Intendente Alvear', 52, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (53, 'Bobbe', 'Cesson', 53, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (54, 'Korney', 'Güira de Melena', 54, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (55, 'Muhammad', 'Villefontaine', 55, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (56, 'Sylvester', 'Baiquesi', 56, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (57, 'Guillemette', 'Dundbürd', 57, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (58, 'Lauretta', 'San Pedro Sacatepéquez', 58, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (59, 'Bald', 'Laboulaye', 59, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (60, 'Krystalle', 'Shūsh', 60, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (61, 'Robby', 'Imaichi', 61, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (62, 'Solly', 'Valence', 62, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (63, 'Indira', 'Khovd', 63, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (64, 'Inesita', 'Owode', 64, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (65, 'Patricio', 'Santa Cruz De Tenerife', 65, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (66, 'Elysee', 'Cortinhas', 66, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (67, 'Klaus', 'Changxing', 67, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (68, 'Tanhya', 'Itapagé', 68, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (69, 'Daron', 'Angra do Heroísmo', 69, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (70, 'Celinda', 'Weepangali', 70, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (71, 'Audi', 'Rudnya', 71, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (72, 'Lilllie', 'Cisagu', 72, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (73, 'Sibeal', 'Nogueira do Cravo', 73, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (74, 'Mendel', 'Sandur', 74, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (75, 'Fey', 'Xijiang', 75, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (76, 'Roderigo', 'Pailiao', 76, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (77, 'Misti', 'Ourtzagh', 77, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (78, 'Reuven', 'Kafr Qūd', 78, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (79, 'Adrianne', 'Begowāla', 79, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (80, 'Madelaine', 'São João dos Inhamuns', 80, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (81, 'Faulkner', 'Yudaikelike', 81, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (82, 'Correna', 'Pochinok', 82, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (83, 'Kermy', 'Ma‘lūlā', 83, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (84, 'Rudd', 'Kebonkaret', 84, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (85, 'Constantin', 'Binonga', 85, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (86, 'Lydon', 'Sabunçu', 86, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (87, 'Geoffry', 'Vistino', 87, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (88, 'Malia', 'Sacramento', 88, 'Female');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (89, 'Irwinn', 'Little Rock', 89, 'Male');
+insert into Patient (Patient_id, Patient_name, Patient_address, Patient_contact, Patient_gender ) values (90, 'Lorelei', 'Skórzec', 90, 'Female');
+
+
+
+
+2)CREATE TABLE Employee (
+    Employee_id Number PRIMARY KEY ,
+    Employee_name CHAR(30),
+    Employee_address CHAR(30),
+    Employee_contact NUMBER(30),
+    Employee_gender NUMBER(30)
+);
+
+INSERT INTO Employee VALUES(5000,'Alua','Almaty,10th microdistrict',87475673434,2);
+INSERT INTO Employee VALUES(5001,'Ali','Astana',87783422345,1);
+INSERT INTO Employee VALUES(5003,'Akhmet','Atyrau',87475673434,1);
+INSERT INTO Employee VALUES(5002,'Anuar','Almaty,11th microdistrict',87471455656,1);
+INSERT INTO Employee VALUES(5005,'Samet','Almaty,Kaskelen',87475673434,1);
+INSERT INTO Employee VALUES(5004,'Alua','Aktobe',87474587898,2);
+INSERT INTO Employee VALUES(5006,'Sabit','Almaty',8747873434,1);
+INSERT INTO Employee VALUES(5007,'Almas','Astana',87474567898,1);
+INSERT INTO Employee VALUES(5008,'Nuraina','Almaty',87789896989,2);
+INSERT INTO Employee VALUES(5009,'Albina','Almaty,Asyl arman',87023569878,2);
+
+INSERT INTO Employee VALUES(5100,'Saken','Almaty',87745674545,1);
+INSERT INTO Employee VALUES(5101,'Ayzere','Astana',87023235897,2);
+INSERT INTO Employee VALUES(5102,'Azamat','Atyrau',87478956896,1);
+INSERT INTO Employee VALUES(5103,'Salamat','Aktobe',87745674555,1);
+INSERT INTO Employee VALUES(5104,'Turar','Shymkent',87478523256,1);
+INSERT INTO Employee VALUES(5105,'Erlan','Aktau',87086102568,1);
+INSERT INTO Employee VALUES(5106,'Erkebulan','Almaty',87745674541,1);
+INSERT INTO Employee VALUES(5107,'Steph','Los angeles',87032568978,1);
+INSERT INTO Employee VALUES(5108,'Sabit','Ural',87745674540,1);
+INSERT INTO Employee VALUES(5109,'Margulan','Moscow',87771458778,1);
+
+
+INSERT INTO Employee VALUES(5200,'Askar','Almaty',87023235620,1);
+INSERT INTO Employee VALUES(5201,'Alisher','Astana',87475897848,1);
+INSERT INTO Employee VALUES(5202,'Salikhan','Kokshetau',87022568978,1);
+INSERT INTO Employee VALUES(5203,'Alina','Kyzylorda',87023235645,2);
+INSERT INTO Employee VALUES(5204,'Ainur','Almaty',87023235621,2);
+INSERT INTO Employee VALUES(5205,'Askarbek','Makat',87786412545,1);
+INSERT INTO Employee VALUES(5206,'Aru','Kulsary',87024578989,2);
+INSERT INTO Employee VALUES(5207,'Aruzhan','Astana',87023235678,2);
+INSERT INTO Employee VALUES(5208,'Aibek','Taraz',87478956988,1);
+INSERT INTO Employee VALUES(5209,'Askar','Oskemen',87023235601,1);
+
+
+
+3)CREATE TABLE Nurse(
+    Nurse_id NUMBER(20) PRIMARY KEY NOT NULL,
+    Employee_id REFERENCES Employee(Employee_id),
+    Nurse_name CHAR(25),
+    Nurse_salary CHAR(30)
+);
+INSERT INTO Nurse VALUES(300,5000,'Alua','200000');
+INSERT INTO Nurse VALUES(301,5001,'Ali','200000');
+INSERT INTO Nurse VALUES(302,5002,'Anuar','200000');
+INSERT INTO Nurse VALUES(303,5003,'Akhmet','200000');
+INSERT INTO Nurse VALUES(304,5004,'Alua','200000');
+INSERT INTO Nurse VALUES(305,5005,'Samet','200000');
+INSERT INTO Nurse VALUES(306,5006,'Sabit','200000');
+INSERT INTO Nurse VALUES(307,5007,'Almas','200000');
+INSERT INTO Nurse VALUES(308,5008,'Nuraina','200000');
+INSERT INTO Nurse VALUES(309,5009,'Albina','200000');
+end
+
+4)CREATE TABLE Receptionist (
+    Receptionist_id NUMBER(20) PRIMARY KEY NOT NULL,
+    Receptionist_name CHAR(15),
+    Employee_id REFERENCES Employee(Employee_id)
+);
+INSERT INTO Receptionist VALUES (500,'Saken',5100);
+INSERT INTO Receptionist VALUES (501,'Ayzere',5101);
+INSERT INTO Receptionist VALUES (502,'Azamat',5102);
+INSERT INTO Receptionist VALUES (503,'Salamat',5103);
+INSERT INTO Receptionist VALUES (505,'Erlan',5105);
+INSERT INTO Receptionist VALUES (504,'Turar',5104);
+INSERT INTO Receptionist VALUES (506,'Erkebulan',5106);
+INSERT INTO Receptionist VALUES (507,'Steph',5107);
+INSERT INTO Receptionist VALUES (508,'Sabit',5108);
+INSERT INTO Receptionist VALUES (509,'Margulan',5109);
+
+5)CREATE TABLE Physician (
+    Physician_id NUMBER(20) PRIMARY KEY NOT NULL,
+    Physician_name CHAR(30),
+    Physician_salary CHAR(30),
+    Physician_history NUMBER(10),
+    Employee_id REFERENCES Employee(Employee_id)
+);
+INSERT INTO Physician VALUES(1500,'Askar','800000tg',6,5200);
+INSERT INTO Physician VALUES(1501,'Askar','800000tg',6,5200);
+INSERT INTO Physician VALUES(1502,'Alisher','800000tg',5,5201);
+INSERT INTO Physician VALUES(1503,'Salikhan','800000tg',2,5202);
+INSERT INTO Physician VALUES(1504,'Alina','800000tg',6,5203);
+INSERT INTO Physician VALUES(1505,'Ainur','800000tg',7,5204);
+INSERT INTO Physician VALUES(1506,'Askarbek','800000tg',11,5205);
+INSERT INTO Physician VALUES(1507,'Aru','800000tg',5,5206);
+INSERT INTO Physician VALUES(1508,'Aruzhan','800000tg',21,5207);
+INSERT INTO Physician VALUES(1509,'Aibek','800000tg',7,5208);
+
+6)CREATE TABLE Department (
+    Department_id NUMBER(20) PRIMARY KEY NOT NULL,
+    Department_name CHAR(30),
+    Physician_id REFERENCES Physician(Physician_id)
+
+);
+INSERT INTO  Department  VALUES(2000,'Pediatrics',1500);
+INSERT INTO  Department  VALUES(2001,'Cardiology',1501);
+INSERT INTO  Department  VALUES(2002,'Gastroenterology',1503);
+INSERT INTO  Department  VALUES(2003,'Infection Control',1502);
+INSERT INTO  Department  VALUES(2004,'Nephrology',1503);
+INSERT INTO  Department  VALUES(2005,'Neurology',1508);
+INSERT INTO  Department  VALUES(2006,'Oncology',1504);
+INSERT INTO  Department  VALUES(2007,'Ophthalmology',1506);
+INSERT INTO  Department  VALUES(2008,'Radiotherapy',1509);
+INSERT INTO  Department  VALUES(2009,'Nutrition and Dietetics',1505);
+
+7)CREATE TABLE Hospital_service (
+    Service_id NUMBER(20) PRIMARY KEY NOT NULL,
+    Patient_id REFERENCES Patient(Patient_id),
+    Service_cost NUMBER(30)
+);
+INSERT INTO  Hospital_service  VALUES(2500,100,0);
+INSERT INTO  Hospital_service  VALUES(2501,101,10000);
+INSERT INTO  Hospital_service  VALUES(2502,102,100000);
+INSERT INTO  Hospital_service  VALUES(2503,103,50000);
+INSERT INTO  Hospital_service  VALUES(2504,104,0);
+INSERT INTO  Hospital_service  VALUES(2505,105,1000000);
+INSERT INTO  Hospital_service  VALUES(2506,106,76000);
+INSERT INTO  Hospital_service  VALUES(2507,107,13000);
+INSERT INTO  Hospital_service  VALUES(2508,108,87900);
+INSERT INTO  Hospital_service  VALUES(2509,109,140000);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (1, 1, 890955);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (2, 2, 952818);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (3, 3, 553998);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (4, 4, 460455);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (5, 5, 112319);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (6, 6, 218722);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (7, 7, 626688);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (8, 8, 132599);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (9, 9, 628673);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (10, 10, 693488);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (11, 11, 181681);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (12, 12, 326223);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (13, 13, 719688);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (14, 14, 149159);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (15, 15, 423620);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (16, 16, 750766);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (17, 17, 727745);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (18, 18, 862460);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (19, 19, 300040);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (20, 20, 318149);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (21, 21, 754668);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (22, 22, 540573);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (23, 23, 331381);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (24, 24, 291307);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (25, 25, 449684);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (26, 26, 755016);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (27, 27, 194009);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (28, 28, 485376);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (29, 29, 731504);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (30, 30, 647299);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (31, 31, 838061);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (32, 32, 504810);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (33, 33, 871715);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (34, 34, 629950);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (35, 35, 564495);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (36, 36, 385671);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (37, 37, 420929);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (38, 38, 242538);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (39, 39, 654039);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (40, 40, 147657);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (41, 41, 671611);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (42, 42, 510117);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (43, 43, 842446);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (44, 44, 222368);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (45, 45, 535907);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (46, 46, 419975);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (47, 47, 709370);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (48, 48, 800313);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (49, 49, 806858);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (50, 50, 411634);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (51, 51, 738386);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (52, 52, 332628);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (53, 53, 852000);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (54, 54, 749369);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (55, 55, 516922);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (56, 56, 846072);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (57, 57, 291061);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (58, 58, 403397);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (59, 59, 174585);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (60, 60, 754896);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (61, 61, 540220);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (62, 62, 383186);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (63, 63, 837455);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (64, 64, 342033);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (65, 65, 639392);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (66, 66, 864400);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (67, 67, 642214);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (68, 68, 261292);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (69, 69, 638146);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (70, 70, 760404);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (71, 71, 405952);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (72, 72, 764648);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (73, 73, 258500);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (74, 74, 764315);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (75, 75, 324240);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (76, 76, 419199);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (77, 77, 301944);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (78, 78, 187999);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (79, 79, 909122);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (80, 80, 863097);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (81, 81, 867564);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (82, 82, 235513);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (83, 83, 547030);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (84, 84, 729094);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (85, 85, 665993);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (86, 86, 362130);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (87, 87, 476353);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (88, 88, 267730);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (89, 89, 946470);
+insert into Hospital_service (Service_id, Patient_id, Service_cost) values (90, 90, 628369);
+
+8)CREATE TABLE Treatment (
+    Service_id REFERENCES Hospital_service(Service_id),
+    Start_time Date,
+    End_time Date
+);
+INSERT INTO  Treatment  VALUES(2500,'10-07-2020','10-21-2020');
+INSERT INTO  Treatment  VALUES(2501,'10-01-2022','10-21-2022');
+INSERT INTO  Treatment  VALUES(2502,'09-30-2020','11-11-2020');
+INSERT INTO  Treatment  VALUES(2503,'09-01-2021','10-21-2021');
+INSERT INTO  Treatment  VALUES(2504,'08-05-2021','08-09-2021');
+INSERT INTO  Treatment  VALUES(2505,'03-12-2019','06-23-2019');
+INSERT INTO  Treatment  VALUES(2506,'11-01-2021','01-21-2022');
+INSERT INTO  Treatment  VALUES(2507,'09-01-2010','09-21-2010');
+INSERT INTO  Treatment  VALUES(2508,'09-01-2018','10-01-2018');
+INSERT INTO  Treatment  VALUES(2509,'11-11-2011','11-21-2011');
+insert into Treatment (Service_id, Start_time, End_time) values (1, '3/2/2022', '6/10/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (2, '2/5/2022', '12/31/2021');
+insert into Treatment (Service_id, Start_time, End_time) values (3, '8/3/2022', '5/17/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (4, '5/30/2022', '6/23/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (5, '6/23/2022', '7/28/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (6, '3/31/2022', '10/6/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (7, '8/5/2022', '11/23/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (8, '3/16/2022', '8/25/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (9, '12/25/2021', '1/17/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (10, '3/22/2022', '11/20/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (11, '4/6/2022', '1/2/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (12, '2/26/2022', '3/2/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (13, '6/22/2022', '8/13/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (14, '11/23/2022', '3/20/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (15, '1/8/2022', '8/19/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (16, '3/6/2022', '10/27/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (17, '5/29/2022', '6/21/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (18, '6/3/2022', '11/24/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (19, '7/11/2022', '12/28/2021');
+insert into Treatment (Service_id, Start_time, End_time) values (20, '1/14/2022', '7/6/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (21, '8/1/2022', '3/19/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (22, '7/8/2022', '12/18/2021');
+insert into Treatment (Service_id, Start_time, End_time) values (23, '1/29/2022', '12/2/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (24, '10/27/2022', '5/28/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (25, '9/14/2022', '1/5/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (26, '11/13/2022', '2/20/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (27, '11/25/2022', '3/23/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (28, '10/5/2022', '11/14/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (29, '2/1/2022', '11/30/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (30, '10/25/2022', '2/22/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (31, '7/6/2022', '6/1/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (32, '1/15/2022', '2/17/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (33, '10/28/2022', '3/15/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (34, '8/14/2022', '6/22/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (35, '11/20/2022', '8/24/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (36, '6/11/2022', '7/5/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (37, '7/9/2022', '8/15/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (38, '3/21/2022', '2/17/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (39, '1/29/2022', '5/1/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (40, '9/7/2022', '7/20/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (41, '8/25/2022', '12/23/2021');
+insert into Treatment (Service_id, Start_time, End_time) values (42, '9/29/2022', '4/1/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (43, '4/17/2022', '10/6/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (44, '9/1/2022', '2/2/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (45, '5/12/2022', '2/28/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (46, '8/30/2022', '3/28/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (47, '6/4/2022', '3/24/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (48, '6/21/2022', '1/2/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (49, '7/5/2022', '6/11/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (50, '7/22/2022', '8/1/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (51, '9/28/2022', '5/15/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (52, '3/28/2022', '12/29/2021');
+insert into Treatment (Service_id, Start_time, End_time) values (53, '11/25/2022', '8/21/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (54, '3/6/2022', '3/13/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (55, '10/30/2022', '10/25/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (56, '2/14/2022', '3/12/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (57, '6/4/2022', '3/16/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (58, '8/28/2022', '8/10/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (59, '6/19/2022', '7/7/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (60, '11/21/2022', '7/23/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (61, '12/15/2022', '2/23/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (62, '11/29/2022', '7/24/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (63, '8/10/2022', '4/2/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (64, '2/3/2022', '11/13/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (65, '2/11/2022', '7/25/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (66, '7/16/2022', '11/3/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (67, '10/10/2022', '3/28/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (68, '4/5/2022', '8/9/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (69, '2/8/2022', '1/26/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (70, '5/28/2022', '10/18/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (71, '12/5/2022', '7/25/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (72, '4/27/2022', '3/7/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (73, '1/29/2022', '10/12/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (74, '5/18/2022', '2/23/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (75, '6/26/2022', '11/5/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (76, '7/18/2022', '1/26/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (77, '2/15/2022', '4/10/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (78, '2/1/2022', '7/29/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (79, '8/31/2022', '6/11/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (80, '11/21/2022', '5/11/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (81, '8/20/2022', '12/22/2021');
+insert into Treatment (Service_id, Start_time, End_time) values (82, '11/14/2022', '4/16/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (83, '5/21/2022', '8/5/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (84, '9/18/2022', '2/13/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (85, '4/8/2022', '5/8/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (86, '5/19/2022', '1/1/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (87, '9/21/2022', '11/24/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (88, '8/25/2022', '11/13/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (89, '11/18/2022', '8/28/2022');
+insert into Treatment (Service_id, Start_time, End_time) values (90, '11/18/2022', '2/5/2022');
+
+
+9)CREATE TABLE Medicine (
+    Service_id REFERENCES Hospital_service(Service_id),
+    Medicine_name CHAR(40),
+    Medicine_description CHAR(120)
+);
+INSERT INTO  Medicine  VALUES(2500,'Favipiravir','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2501,'Paratsetamol','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2501,'Tsetramon','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2502,'Notsep','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2503,'Notsep','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2504,'Tsetramon','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2505,'Noshpa','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2506,'Favi','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2507,'Gertarte','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+INSERT INTO  Medicine  VALUES(2508,'Otyr','An antiviral drug created in Japan, which was previously used to treat influenza and Ebola');
+
+10)CREATE TABLE Operation (
+    Service_id REFERENCES Hospital_service(Service_id),
+    Operation_date Date,
+    Operation_place CHAR(30)
+);
+INSERT INTO  Operation  VALUES(2500,'10-30-2020','KZ,Astana');
+INSERT INTO  Operation  VALUES(2504,'11-23-2018','KZ,Astana');
+INSERT INTO  Operation  VALUES(2504,'08-21-2021','KZ,Almaty');
+INSERT INTO  Operation  VALUES(2508,'09-03-2000','TK,Ankara');
+INSERT INTO  Operation  VALUES(2501,'10-30-2012','KZ,Oskemen');
+INSERT INTO  Operation  VALUES(2503,'12-30-2020','KZ,Astana');
+INSERT INTO  Operation  VALUES(2503,'05-23-2021','TK,Stambul');
+INSERT INTO  Operation  VALUES(2509,'06-15-2022','TK,Ankara');
+INSERT INTO  Operation  VALUES(2507,'05-16-2021','KZ,Atyrau');
+INSERT INTO  Operation  VALUES(2504,'11-17-2019','KZ,Astana');
+insert into Operation (Service_id, Operation_date, Operation_place) values (1, '10/29/2022', 'Orekhovo-Borisovo Severnoye');
+insert into Operation (Service_id, Operation_date, Operation_place) values (2, '11/25/2022', 'Bile');
+insert into Operation (Service_id, Operation_date, Operation_place) values (3, '12/21/2021', 'Banjar Bucu');
+insert into Operation (Service_id, Operation_date, Operation_place) values (4, '6/16/2022', 'Angatel');
+insert into Operation (Service_id, Operation_date, Operation_place) values (5, '11/12/2022', 'Changtu');
+insert into Operation (Service_id, Operation_date, Operation_place) values (6, '2/17/2022', 'Iroquois Falls');
+insert into Operation (Service_id, Operation_date, Operation_place) values (7, '8/8/2022', 'Bondoufle');
+insert into Operation (Service_id, Operation_date, Operation_place) values (8, '7/29/2022', 'La Cesira');
+insert into Operation (Service_id, Operation_date, Operation_place) values (9, '5/24/2022', 'Rancho Nuevo');
+insert into Operation (Service_id, Operation_date, Operation_place) values (10, '12/12/2022', 'Kertabumi');
+insert into Operation (Service_id, Operation_date, Operation_place) values (11, '11/19/2022', 'Taiqing');
+insert into Operation (Service_id, Operation_date, Operation_place) values (12, '12/6/2022', 'Чучер - Сандево');
+insert into Operation (Service_id, Operation_date, Operation_place) values (13, '2/16/2022', 'Montréal-Ouest');
+insert into Operation (Service_id, Operation_date, Operation_place) values (14, '5/22/2022', 'Ajaccio');
+insert into Operation (Service_id, Operation_date, Operation_place) values (15, '9/24/2022', 'Juḩr ad Dīk');
+insert into Operation (Service_id, Operation_date, Operation_place) values (16, '11/30/2022', 'Duekoué');
+insert into Operation (Service_id, Operation_date, Operation_place) values (17, '11/16/2022', 'Yangjiang');
+insert into Operation (Service_id, Operation_date, Operation_place) values (18, '7/18/2022', 'Jargalant');
+insert into Operation (Service_id, Operation_date, Operation_place) values (19, '12/12/2022', 'Jacksonville');
+insert into Operation (Service_id, Operation_date, Operation_place) values (20, '12/19/2021', 'St. Anton an der Jeßnitz');
+insert into Operation (Service_id, Operation_date, Operation_place) values (21, '6/26/2022', 'Rio Piracicaba');
+insert into Operation (Service_id, Operation_date, Operation_place) values (22, '8/3/2022', 'Qiwen');
+insert into Operation (Service_id, Operation_date, Operation_place) values (23, '4/19/2022', 'Selkirk');
+insert into Operation (Service_id, Operation_date, Operation_place) values (24, '10/19/2022', 'Singabarong');
+insert into Operation (Service_id, Operation_date, Operation_place) values (25, '4/2/2022', 'Kirovsk');
+insert into Operation (Service_id, Operation_date, Operation_place) values (26, '5/4/2022', 'Sidi Yahya Ou Saad');
+insert into Operation (Service_id, Operation_date, Operation_place) values (27, '1/31/2022', 'Kutao');
+insert into Operation (Service_id, Operation_date, Operation_place) values (28, '5/1/2022', 'Kula');
+insert into Operation (Service_id, Operation_date, Operation_place) values (29, '9/5/2022', 'Cereté');
+insert into Operation (Service_id, Operation_date, Operation_place) values (30, '4/15/2022', 'Jindou');
+insert into Operation (Service_id, Operation_date, Operation_place) values (31, '10/19/2022', 'Cambarus');
+insert into Operation (Service_id, Operation_date, Operation_place) values (32, '10/19/2022', 'Sviblovo');
+insert into Operation (Service_id, Operation_date, Operation_place) values (33, '8/2/2022', 'Vishnyeva');
+insert into Operation (Service_id, Operation_date, Operation_place) values (34, '1/23/2022', 'Hearst');
+insert into Operation (Service_id, Operation_date, Operation_place) values (35, '8/11/2022', 'San Miguel de Tucumán');
+insert into Operation (Service_id, Operation_date, Operation_place) values (36, '8/17/2022', 'Rovnoye');
+insert into Operation (Service_id, Operation_date, Operation_place) values (37, '5/6/2022', 'San Francisco');
+insert into Operation (Service_id, Operation_date, Operation_place) values (38, '2/2/2022', 'Västerås');
+insert into Operation (Service_id, Operation_date, Operation_place) values (39, '11/6/2022', 'Ogōri-shimogō');
+insert into Operation (Service_id, Operation_date, Operation_place) values (40, '6/3/2022', 'Des Moines');
+insert into Operation (Service_id, Operation_date, Operation_place) values (41, '6/5/2022', 'Notre-Dame-de-l''Île-Perrot');
+insert into Operation (Service_id, Operation_date, Operation_place) values (42, '2/10/2022', 'Luozhuang');
+insert into Operation (Service_id, Operation_date, Operation_place) values (43, '9/30/2022', 'Jingzhou');
+insert into Operation (Service_id, Operation_date, Operation_place) values (44, '11/13/2022', 'Kleszczów');
+insert into Operation (Service_id, Operation_date, Operation_place) values (45, '3/11/2022', 'Pora');
+insert into Operation (Service_id, Operation_date, Operation_place) values (46, '2/13/2022', 'Yugang');
+insert into Operation (Service_id, Operation_date, Operation_place) values (47, '9/5/2022', 'Ibusuki');
+insert into Operation (Service_id, Operation_date, Operation_place) values (48, '5/17/2022', 'Cuauhtemoc');
+insert into Operation (Service_id, Operation_date, Operation_place) values (49, '6/15/2022', 'Almeria');
+insert into Operation (Service_id, Operation_date, Operation_place) values (50, '7/30/2022', 'Araci');
+insert into Operation (Service_id, Operation_date, Operation_place) values (51, '3/23/2022', 'Madjeouéni');
+insert into Operation (Service_id, Operation_date, Operation_place) values (52, '2/8/2022', 'Alvarães');
+insert into Operation (Service_id, Operation_date, Operation_place) values (53, '7/24/2022', 'Tiraspol');
+insert into Operation (Service_id, Operation_date, Operation_place) values (54, '7/22/2022', 'Fort Macleod');
+insert into Operation (Service_id, Operation_date, Operation_place) values (55, '11/27/2022', 'Masipi West');
+insert into Operation (Service_id, Operation_date, Operation_place) values (56, '11/23/2022', 'Yanglinwei');
+insert into Operation (Service_id, Operation_date, Operation_place) values (57, '10/28/2022', 'Pilot Butte');
+insert into Operation (Service_id, Operation_date, Operation_place) values (58, '10/7/2022', 'Amieiro');
+insert into Operation (Service_id, Operation_date, Operation_place) values (59, '11/20/2022', 'Bandung');
+insert into Operation (Service_id, Operation_date, Operation_place) values (60, '3/24/2022', 'Bašaid');
+insert into Operation (Service_id, Operation_date, Operation_place) values (61, '2/9/2022', 'Drammen');
+insert into Operation (Service_id, Operation_date, Operation_place) values (62, '2/4/2022', 'Emiliano Zapata');
+insert into Operation (Service_id, Operation_date, Operation_place) values (63, '12/8/2022', 'Maracaibo');
+insert into Operation (Service_id, Operation_date, Operation_place) values (64, '10/25/2022', 'Okuta');
+insert into Operation (Service_id, Operation_date, Operation_place) values (65, '11/21/2022', 'Shilovo');
+insert into Operation (Service_id, Operation_date, Operation_place) values (66, '9/12/2022', 'Taipingxu');
+insert into Operation (Service_id, Operation_date, Operation_place) values (67, '12/4/2022', 'Garland');
+insert into Operation (Service_id, Operation_date, Operation_place) values (68, '11/22/2022', 'K’olīto');
+insert into Operation (Service_id, Operation_date, Operation_place) values (69, '6/18/2022', 'Tëploye');
+insert into Operation (Service_id, Operation_date, Operation_place) values (70, '3/7/2022', 'Al Jubayl');
+insert into Operation (Service_id, Operation_date, Operation_place) values (71, '2/8/2022', 'Elx/Elche');
+insert into Operation (Service_id, Operation_date, Operation_place) values (72, '11/30/2022', 'Gálvez');
+insert into Operation (Service_id, Operation_date, Operation_place) values (73, '8/11/2022', 'Ulimonong');
+insert into Operation (Service_id, Operation_date, Operation_place) values (74, '5/5/2022', 'Gaotan');
+insert into Operation (Service_id, Operation_date, Operation_place) values (75, '5/10/2022', 'Cândido Mota');
+insert into Operation (Service_id, Operation_date, Operation_place) values (76, '2/8/2022', 'Meicheng');
+insert into Operation (Service_id, Operation_date, Operation_place) values (77, '12/18/2021', 'Seres');
+insert into Operation (Service_id, Operation_date, Operation_place) values (78, '10/15/2022', 'Kongsvinger');
+insert into Operation (Service_id, Operation_date, Operation_place) values (79, '1/13/2022', 'Longgang');
+insert into Operation (Service_id, Operation_date, Operation_place) values (80, '9/29/2022', 'Laguna Paiva');
+insert into Operation (Service_id, Operation_date, Operation_place) values (81, '5/16/2022', 'Baiyang');
+insert into Operation (Service_id, Operation_date, Operation_place) values (82, '12/21/2021', 'Tapera');
+insert into Operation (Service_id, Operation_date, Operation_place) values (83, '4/14/2022', 'Shuiquan');
+insert into Operation (Service_id, Operation_date, Operation_place) values (84, '11/8/2022', 'Salisbury');
+insert into Operation (Service_id, Operation_date, Operation_place) values (85, '10/21/2022', 'Marieville');
+insert into Operation (Service_id, Operation_date, Operation_place) values (86, '7/19/2022', 'Taibao');
+insert into Operation (Service_id, Operation_date, Operation_place) values (87, '8/24/2022', 'Espírito Santo do Pinhal');
+insert into Operation (Service_id, Operation_date, Operation_place) values (88, '5/27/2022', 'Phúc Thọ');
+insert into Operation (Service_id, Operation_date, Operation_place) values (89, '12/31/2021', 'Jbaïl');
+insert into Operation (Service_id, Operation_date, Operation_place) values (90, '1/7/2022', 'Sassandra');
+
+11)CREATE TABLE Room(
+    Room_number NUMBER(30) PRIMARY KEY NOT NULL,
+    Nurse_id REFERENCES Nurse(Nurse_id),
+    Service_id REFERENCES Hospital_service(Service_id)
+);
+INSERT INTO  Room  VALUES(3000,301,2500);
+INSERT INTO  Room  VALUES(3001,302,2501);
+INSERT INTO  Room  VALUES(3002,303,2502);
+INSERT INTO  Room  VALUES(3003,304,2503);
+INSERT INTO  Room  VALUES(3004,305,2504);
+INSERT INTO  Room  VALUES(3005,306,2505);
+INSERT INTO  Room  VALUES(3006,307,2506);
+INSERT INTO  Room  VALUES(3007,308,2507);
+INSERT INTO  Room  VALUES(3008,309,2508);
+INSERT INTO  Room  VALUES(3009,300,2509);
+
+
+12)CREATE TABLE RELATIVE (
+    Relative_id Number PRIMARY KEY ,
+    Relative_name CHAR(20),
+    Relation CHAR(20),
+    Relative_contact Number(20),
+    Patient_id REFERENCES Patient(Patient_id)
+);
+INSERT INTO Relative VALUES(4000,'Aidyn','dad',87786456589,100);
+INSERT INTO Relative VALUES(4001,'Aikyn','brother',87786456599,101);
+INSERT INTO Relative VALUES(4002,'Aiaulym','sister',87021457845,102);
+INSERT INTO Relative VALUES(4003,'Aiym','mother',87786456587,103);
+INSERT INTO Relative VALUES(4004,'Saken','dad',87086456589,104);
+INSERT INTO Relative VALUES(4005,'Safi','mother',87478965656,105);
+INSERT INTO Relative VALUES(4006,'Alpamys','dad',87786456580,106);
+INSERT INTO Relative VALUES(4007,'Aruna','sister',87782222222,107);
+INSERT INTO Relative VALUES(4008,'Zere','grand-mother',87781234545,108);
+INSERT INTO Relative VALUES(4009,'Kadyr','frand-father',87787847500,109);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (1, 'Merv', 'Brooks', 44, 1);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (2, 'Ozzie', 'Marisa', 22, 2);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (3, 'Giulia', 'Emlyn', 43, 3);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (4, 'Huey', 'Mack', 89, 4);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (5, 'Garv', 'Cammy', 25, 5);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (6, 'Isis', 'Wells', 70, 6);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (7, 'Diannne', 'Dalston', 49, 7);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (8, 'Bernadette', 'Charlene', 64, 8);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (9, 'Cesar', 'Pat', 82, 9);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (10, 'Connie', 'Trescha', 43, 10);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (11, 'Matthiew', 'Sibelle', 23, 11);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (12, 'Wake', 'Jamaal', 64, 12);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (13, 'Shay', 'Annamaria', 2, 13);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (14, 'Zorah', 'Lianna', 86, 14);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (15, 'Archy', 'Donnie', 28, 15);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (16, 'Shellysheldon', 'Twila', 47, 16);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (17, 'Gabriela', 'Darill', 78, 17);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (18, 'Imojean', 'Leeland', 94, 18);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (19, 'Tuesday', 'Zelig', 55, 19);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (20, 'Glenn', 'Normie', 19, 20);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (21, 'Melvin', 'Bernadene', 90, 21);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (22, 'Lethia', 'Judie', 12, 22);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (23, 'Deborah', 'Garv', 26, 23);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (24, 'Kimmi', 'Korey', 88, 24);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (25, 'Brod', 'Humfrid', 24, 25);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (26, 'Veronica', 'Manda', 56, 26);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (27, 'Herve', 'Ferdinanda', 21, 27);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (28, 'Kacey', 'Vonnie', 67, 28);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (29, 'Kennett', 'Francesca', 49, 29);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (30, 'Donelle', 'Osbert', 4, 30);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (31, 'Northrup', 'Elwira', 31, 31);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (32, 'Jefferey', 'Abbot', 15, 32);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (33, 'Genevra', 'Gerrie', 92, 33);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (34, 'Filippo', 'Tamara', 99, 34);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (35, 'Blayne', 'Cris', 59, 35);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (36, 'Lulu', 'Gweneth', 27, 36);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (37, 'Rhea', 'Durant', 51, 37);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (38, 'Lesli', 'Kary', 27, 38);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (39, 'Donella', 'Rudiger', 43, 39);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (40, 'Kippy', 'Orly', 48, 40);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (41, 'Garwood', 'Mirabel', 31, 41);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (42, 'Lurette', 'Torey', 26, 42);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (43, 'Evelyn', 'Gordie', 24, 43);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (44, 'Jannel', 'Bari', 91, 44);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (45, 'Mei', 'Ester', 74, 45);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (46, 'Laryssa', 'Ania', 57, 46);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (47, 'Jolie', 'Bat', 25, 47);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (48, 'Nariko', 'Elisa', 61, 48);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (49, 'Alidia', 'Faydra', 26, 49);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (50, 'Fanchette', 'Klarrisa', 46, 50);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (51, 'Darb', 'Thaxter', 35, 51);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (52, 'Biddie', 'Noll', 86, 52);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (53, 'Kermit', 'Redford', 69, 53);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (54, 'Vassili', 'Bernardine', 54, 54);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (55, 'Nicolais', 'Glennie', 46, 55);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (56, 'Deloris', 'Rickard', 24, 56);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (57, 'Gardner', 'Evita', 52, 57);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (58, 'Petronille', 'Raffarty', 5, 58);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (59, 'Conney', 'Rufus', 20, 59);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (60, 'Karlyn', 'Ophelie', 35, 60);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (61, 'Liam', 'Paulina', 18, 61);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (62, 'Gerry', 'Jeth', 82, 62);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (63, 'Karola', 'Garald', 2, 63);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (64, 'Vasilis', 'Omero', 43, 64);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (65, 'Page', 'Giselle', 95, 65);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (66, 'Octavia', 'Lenee', 84, 66);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (67, 'Clive', 'Marylin', 60, 67);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (68, 'Jacinda', 'Akim', 80, 68);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (69, 'Hildagard', 'Cathrine', 14, 69);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (70, 'Lexis', 'Blinny', 4, 70);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (71, 'Leo', 'Chastity', 61, 71);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (72, 'Ritchie', 'Abigael', 96, 72);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (73, 'Heida', 'Burk', 38, 73);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (74, 'Carolann', 'Danni', 52, 74);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (75, 'Lolita', 'Kenon', 22, 75);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (76, 'Di', 'Hermine', 33, 76);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (77, 'Robyn', 'Evanne', 76, 77);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (78, 'Archaimbaud', 'Hamid', 43, 78);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (79, 'Fredrika', 'Lizette', 89, 79);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (80, 'Marybelle', 'Shaine', 85, 80);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (81, 'Deena', 'Honoria', 33, 81);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (82, 'Artair', 'Jordon', 9, 82);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (83, 'Ame', 'Carter', 18, 83);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (84, 'Thorndike', 'Issiah', 47, 84);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (85, 'Tripp', 'Franni', 26, 85);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (86, 'Blondelle', 'Uriah', 80, 86);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (87, 'Maxim', 'Jaine', 37, 87);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (88, 'Jazmin', 'Pris', 36, 88);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (89, 'Stoddard', 'Reinold', 89, 89);
+insert into RELATIVE (Relative_id, Relative_name, Relation, Relative_contact, Patient_id) values (90, 'Cari', 'Antony', 44, 90);
+
+13)CREATE TABLE Appointment (
+    Appointment_id Number PRIMARY KEY ,
+    Patient_id REFERENCES Patient(Patient_id),
+    Physician_id REFERENCES Physician(Physician_id),
+    Appointment_date Date
+);
+INSERT INTO Appointment VALUES(7000,100,1500,'01-01-2019');
+INSERT INTO Appointment VALUES(7001,101,1501,'10-01-2022');
+INSERT INTO Appointment VALUES(7002,102,1502,'09-30-2020');
+INSERT INTO Appointment VALUES(7003,103,1503,'09-01-2021');
+INSERT INTO Appointment VALUES(7004,104,1504,'08-05-2021');
+INSERT INTO Appointment VALUES(7005,105,1505,'03-12-2019');
+INSERT INTO Appointment VALUES(7006,106,1506,'11-01-2021');
+INSERT INTO Appointment VALUES(7007,107,1507,'09-01-2010');
+INSERT INTO Appointment VALUES(7008,108,1508,'09-01-2018');
+INSERT INTO Appointment VALUES(7009,109,1509,'11-11-2011');
+
+
+14)CREATE TABLE Ambulance (
+    Ambulance_number Number PRIMARY KEY ,
+    Ambulance_brigade CHAR(20),
+    Ambulance_capacity CHAR(20)
+);
+INSERT INTO Ambulance VALUES(8000,'A','big');
+INSERT INTO Ambulance VALUES(8001,'B','small');
+INSERT INTO Ambulance VALUES(8002,'C','big');
+INSERT INTO Ambulance VALUES(8003,'D','middle');
+INSERT INTO Ambulance VALUES(8004,'E','big');
+INSERT INTO Ambulance VALUES(8005,'F','small');
+INSERT INTO Ambulance VALUES(8006,'G','small');
+INSERT INTO Ambulance VALUES(8007,'H','big');
+INSERT INTO Ambulance VALUES(8008,'I','big');
+INSERT INTO Ambulance VALUES(8009,'J','big');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (1, 'NA', 'aizakson0');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (2, 'AS', 'lmold1');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (3, 'NA', 'abonett2');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (4, 'AS', 'qbiggar3');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (5, 'EU', 'hadrianello4');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (6, 'AS', 'dpask5');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (7, 'AF', 'msteptowe6');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (8, 'EU', 'bgrimwood7');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (9, 'OC', 'esomner8');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (10, 'AS', 'jhammon9');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (11, 'EU', 'iposselwhitea');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (12, 'SA', 'jbonifaziob');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (13, 'AS', 'ckailc');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (14, 'AS', 'rthornleyd');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (15, 'SA', 'jmullanee');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (16, 'NA', 'mmcgrielef');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (17, 'SA', 'cgeorgesong');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (18, 'AS', 'mweeklandh');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (19, 'SA', 'mkinlochi');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (20, 'AS', 'gdevilj');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (21, 'AS', 'kspaingowerk');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (22, 'NA', 'eflettl');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (23, 'AS', 'abrideauxm');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (24, 'NA', 'knutleyn');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (25, 'OC', 'iwalarono');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (26, 'AF', 'sashep');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (27, 'EU', 'gporrettq');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (28, 'SA', 'jcapesr');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (29, 'NA', 'awignalls');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (30, 'AS', 'xsineyt');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (31, 'OC', 'nberraneu');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (32, 'OC', 'mbalfev');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (33, 'NA', 'rhaydonw');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (34, 'NA', 'ekiddyex');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (35, 'SA', 'jwishery');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (36, 'EU', 'zcapnerz');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (37, 'AF', 'ocritch10');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (38, 'SA', 'ecourvert11');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (39, 'SA', 'arival12');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (40, 'NA', 'rdykins13');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (41, 'EU', 'mtopliss14');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (42, 'SA', 'fhubbis15');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (43, 'AF', 'lginity16');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (44, 'OC', 'vplewright17');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (45, 'SA', 'lmaffiotti18');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (46, 'SA', 'ndodle19');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (47, 'OC', 'aeuplate1a');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (48, 'SA', 'lbasley1b');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (49, 'AF', 'fbartell1c');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (50, 'AF', 'whumpherston1d');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (51, 'AF', 'amusto1e');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (52, 'OC', 'ralpine1f');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (53, 'AF', 'bdowderswell1g');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (54, 'AF', 'tlivingstone1h');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (55, 'EU', 'gpetters1i');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (56, 'AF', 'rdrysdall1j');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (57, 'OC', 'glowde1k');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (58, 'SA', 'curlin1l');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (59, 'AF', 'akoppes1m');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (60, 'AS', 'kbrandacci1n');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (61, 'OC', 'nlangrish1o');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (62, 'NA', 'cboydle1p');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (63, 'EU', 'haggus1q');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (64, 'AS', 'wlightowlers1r');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (65, 'SA', 'coxbury1s');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (66, 'AS', 'tcapelle1t');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (67, 'NA', 'ggritsaev1u');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (68, 'AF', 'vrainton1v');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (69, 'NA', 'ajerger1w');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (70, 'AS', 'bjost1x');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (71, 'EU', 'hnoad1y');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (72, 'AF', 'cbaack1z');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (73, 'NA', 'sbucknill20');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (74, 'NA', 'cblanque21');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (75, 'EU', 'ksherburn22');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (76, 'EU', 'wdoody23');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (77, 'AF', 'slamperd24');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (78, 'NA', 'fbuckney25');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (79, 'NA', 'scraggs26');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (80, 'AF', 'ehefferan27');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (81, 'EU', 'yruskin28');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (82, 'EU', 'ggooderidge29');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (83, 'EU', 'ddanaher2a');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (84, 'NA', 'bpigford2b');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (85, 'NA', 'skohen2c');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (86, 'EU', 'edelos2d');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (87, 'NA', 'rcaldecutt2e');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (88, 'NA', 'mcheatle2f');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (89, 'NA', 'crisdall2g');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (90, 'AF', 'lisland2h');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (91, 'SA', 'cronan2i');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (92, 'SA', 'jkamenar2j');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (93, 'SA', 'halhirsi2k');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (94, 'EU', 'ucrammy2l');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (95, 'OC', 'fsymcox2m');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (96, 'NA', 'tchildes2n');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (97, 'EU', 'aoldale2o');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (98, 'NA', 'avel2p');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (99, 'AF', 'cgratland2q');
+insert into Ambulance (Ambulance_number, Ambulance_brigade, Ambulance_capacity) values (100, 'AS', 'lrabbitt2r');
+
+
+15)CREATE TABLE Call(
+    Call_number Number(20) PRIMARY KEY ,
+    Ambulance_number REFERENCES Ambulance(Ambulance_number),
+    Patient_id REFERENCES Patient(Patient_id)
+);
+
+INSERT INTO Call VALUES(9000,8000,100);
+INSERT INTO Call VALUES(9001,8001,101);
+INSERT INTO Call VALUES(9002,8002,102);
+INSERT INTO Call VALUES(9003,8003,103);
+INSERT INTO Call VALUES(9004,8004,104);
+INSERT INTO Call VALUES(9005,8005,105);
+INSERT INTO Call VALUES(9006,8006,106);
+INSERT INTO Call VALUES(9007,8007,107);
+INSERT INTO Call VALUES(9008,8008,108);
+INSERT INTO Call VALUES(9009,8009,109);
+
+16)CREATE TABLE Hospital_test(
+    Test_number NUMBER(20) PRIMARY KEY,
+    Test_type CHAR(20),
+    Test_cost CHAR(20)
+)
+INSERT INTO Hospital_test VALUES (6000,'blood',5000);
+INSERT INTO Hospital_test VALUES (6001,'blood',5000);
+INSERT INTO Hospital_test VALUES (6002,'blood',5000);
+INSERT INTO Hospital_test VALUES (6003,'blood',5000);
+INSERT INTO Hospital_test VALUES (6004,'blood',5000);
+INSERT INTO Hospital_test VALUES (6005,'blood',5000);
+INSERT INTO Hospital_test VALUES (6006,'blood',5000);
+INSERT INTO Hospital_test VALUES (6007,'blood',5000);
+INSERT INTO Hospital_test VALUES (6008,'blood',5000);
+INSERT INTO Hospital_test VALUES (6009,'blood',5000);
+
+17)CREATE TABLE Diagnosis(
+    Test_number REFERENCES Hospital_test(Test_number),
+    Patient_id REFERENCES Patient(Patient_id),
+    Diagnosis CHAR(30)
+)
+INSERT INTO Diagnosis VALUES(6000,100,'coronavirus');
+INSERT INTO Diagnosis VALUES(6001,101,'headache');
+INSERT INTO Diagnosis VALUES(6002,102,'cancer');
+INSERT INTO Diagnosis VALUES(6003,103,'brain scanning');
+INSERT INTO Diagnosis VALUES(6004,104,'coronavirus');
+INSERT INTO Diagnosis VALUES(6005,105,'cancer');
+INSERT INTO Diagnosis VALUES(6006,106,'angiography');
+INSERT INTO Diagnosis VALUES(6007,107,'echoencephalography');
+INSERT INTO Diagnosis VALUES(6008,108,'coronavirus');
+INSERT INTO Diagnosis VALUES(6009,109,'headache');
+
+18)CREATE TABLE Bill(
+    Bill_number CHAR(20) PRIMARY KEY,
+    Patient_id REFERENCES Patient(Patient_id)
+)
+INSERT INTO Bill VALUES('1',100);
+INSERT INTO Bill VALUES('2',102);
+INSERT INTO Bill VALUES('3',103);
+INSERT INTO Bill VALUES('4',104);
+INSERT INTO Bill VALUES('5',105);
+INSERT INTO Bill VALUES('6',106);
+INSERT INTO Bill VALUES('7',107);
+INSERT INTO Bill VALUES('8',108);
+INSERT INTO Bill VALUES('9',109);
+INSERT INTO Bill VALUES('10',101);
+insert into Bill (Bill_number, Patient_id) values ('149', 1);
+insert into Bill (Bill_number, Patient_id) values ('181', 2);
+insert into Bill (Bill_number, Patient_id) values ('9803', 3);
+insert into Bill (Bill_number, Patient_id) values ('34', 4);
+insert into Bill (Bill_number, Patient_id) values ('419', 5);
+insert into Bill (Bill_number, Patient_id) values ('648', 6);
+insert into Bill (Bill_number, Patient_id) values ('21', 7);
+insert into Bill (Bill_number, Patient_id) values ('907', 8);
+insert into Bill (Bill_number, Patient_id) values ('89', 9);
+insert into Bill (Bill_number, Patient_id) values ('5245', 10);
+insert into Bill (Bill_number, Patient_id) values ('144', 11);
+insert into Bill (Bill_number, Patient_id) values ('1743', 12);
+insert into Bill (Bill_number, Patient_id) values ('78', 13);
+insert into Bill (Bill_number, Patient_id) values ('3910', 14);
+insert into Bill (Bill_number, Patient_id) values ('3412', 15);
+insert into Bill (Bill_number, Patient_id) values ('52951', 16);
+insert into Bill (Bill_number, Patient_id) values ('54359', 17);
+insert into Bill (Bill_number, Patient_id) values ('106', 18);
+insert into Bill (Bill_number, Patient_id) values ('15', 19);
+insert into Bill (Bill_number, Patient_id) values ('84283', 20);
+insert into Bill (Bill_number, Patient_id) values ('562', 21);
+insert into Bill (Bill_number, Patient_id) values ('0113', 22);
+insert into Bill (Bill_number, Patient_id) values ('797', 23);
+insert into Bill (Bill_number, Patient_id) values ('5570', 24);
+insert into Bill (Bill_number, Patient_id) values ('4832', 25);
+insert into Bill (Bill_number, Patient_id) values ('82713', 26);
+insert into Bill (Bill_number, Patient_id) values ('386', 27);
+insert into Bill (Bill_number, Patient_id) values ('80', 28);
+insert into Bill (Bill_number, Patient_id) values ('90', 29);
+insert into Bill (Bill_number, Patient_id) values ('66', 30);
+insert into Bill (Bill_number, Patient_id) values ('19', 31);
+insert into Bill (Bill_number, Patient_id) values ('4348', 32);
+insert into Bill (Bill_number, Patient_id) values ('70', 33);
+insert into Bill (Bill_number, Patient_id) values ('98220', 34);
+insert into Bill (Bill_number, Patient_id) values ('40', 35);
+insert into Bill (Bill_number, Patient_id) values ('51', 36);
+insert into Bill (Bill_number, Patient_id) values ('11', 37);
+insert into Bill (Bill_number, Patient_id) values ('909', 38);
+insert into Bill (Bill_number, Patient_id) values ('3702', 39);
+insert into Bill (Bill_number, Patient_id) values ('102', 40);
+insert into Bill (Bill_number, Patient_id) values ('926', 41);
+insert into Bill (Bill_number, Patient_id) values ('92', 42);
+insert into Bill (Bill_number, Patient_id) values ('478', 43);
+insert into Bill (Bill_number, Patient_id) values ('893', 44);
+insert into Bill (Bill_number, Patient_id) values ('585', 45);
+insert into Bill (Bill_number, Patient_id) values ('82917', 46);
+insert into Bill (Bill_number, Patient_id) values ('97', 47);
+insert into Bill (Bill_number, Patient_id) values ('74969', 48);
+insert into Bill (Bill_number, Patient_id) values ('55', 49);
+insert into Bill (Bill_number, Patient_id) values ('54412', 50);
+insert into Bill (Bill_number, Patient_id) values ('27', 51);
+insert into Bill (Bill_number, Patient_id) values ('277', 52);
+insert into Bill (Bill_number, Patient_id) values ('18173', 53);
+insert into Bill (Bill_number, Patient_id) values ('202', 54);
+insert into Bill (Bill_number, Patient_id) values ('1274', 55);
+insert into Bill (Bill_number, Patient_id) values ('9182', 56);
+insert into Bill (Bill_number, Patient_id) values ('5085', 57);
+insert into Bill (Bill_number, Patient_id) values ('32', 58);
+insert into Bill (Bill_number, Patient_id) values ('7589', 59);
+insert into Bill (Bill_number, Patient_id) values ('8679', 60);
+insert into Bill (Bill_number, Patient_id) values ('17733', 61);
+insert into Bill (Bill_number, Patient_id) values ('72', 62);
+insert into Bill (Bill_number, Patient_id) values ('09', 63);
+insert into Bill (Bill_number, Patient_id) values ('0349', 64);
+insert into Bill (Bill_number, Patient_id) values ('0', 65);
+insert into Bill (Bill_number, Patient_id) values ('996', 66);
+insert into Bill (Bill_number, Patient_id) values ('4515', 67);
+insert into Bill (Bill_number, Patient_id) values ('92264', 68);
+insert into Bill (Bill_number, Patient_id) values ('39', 69);
+insert into Bill (Bill_number, Patient_id) values ('445', 70);
+insert into Bill (Bill_number, Patient_id) values ('28', 71);
+insert into Bill (Bill_number, Patient_id) values ('4708', 72);
+insert into Bill (Bill_number, Patient_id) values ('02', 73);
+insert into Bill (Bill_number, Patient_id) values ('09622', 74);
+insert into Bill (Bill_number, Patient_id) values ('189', 75);
+insert into Bill (Bill_number, Patient_id) values ('647', 76);
+insert into Bill (Bill_number, Patient_id) values ('35977', 77);
+insert into Bill (Bill_number, Patient_id) values ('784', 78);
+insert into Bill (Bill_number, Patient_id) values ('60070', 79);
+insert into Bill (Bill_number, Patient_id) values ('08612', 80);
+insert into Bill (Bill_number, Patient_id) values ('729', 81);
+insert into Bill (Bill_number, Patient_id) values ('161', 82);
+insert into Bill (Bill_number, Patient_id) values ('61', 83);
+insert into Bill (Bill_number, Patient_id) values ('452', 84);
+insert into Bill (Bill_number, Patient_id) values ('26060', 85);
+insert into Bill (Bill_number, Patient_id) values ('2399', 86);
+insert into Bill (Bill_number, Patient_id) values ('7848', 87);
+insert into Bill (Bill_number, Patient_id) values ('5451', 88);
+insert into Bill (Bill_number, Patient_id) values ('40818', 89);
+insert into Bill (Bill_number, Patient_id) values ('6021', 90);
+
+
+19)CREATE TABLE Payment (
+    Payment_id NUMBER(20) PRIMARY KEY,
+    Bill_number REFERENCES Bill(Bill_number),
+    Payment_method CHAR(20),
+    Payment_amount NUMBER(20)
+);
+
+INSERT INTO  Payment  VALUES(2300,1,'insurance',100000);
+INSERT INTO  Payment  VALUES(2301,2,'card',700000);
+INSERT INTO  Payment  VALUES(2302,3,'insurance',1000000);
+INSERT INTO  Payment  VALUES(2303,4,'card',70000);
+INSERT INTO  Payment  VALUES(2304,5,'cash',9000);
+INSERT INTO  Payment  VALUES(2305,6,'insurance',900000);
+INSERT INTO  Payment  VALUES(2306,7,'insurance',5000);
+INSERT INTO  Payment  VALUES(2308,8,'cash',10000);
+INSERT INTO  Payment  VALUES(2309,9,'cash',100000);
+INSERT INTO  Payment  VALUES(2307,10,'insurance',400000);
+
+20)CREATE TABLE Registration (
+    Registration_id NUMBER(20) PRIMARY KEY,
+    Registration_date Date,
+    Patient_id REFERENCES Patient(Patient_id),
+    Receptionist_id REFERENCES Receptionist(Receptionist_id)
+);
+
+INSERT INTO  Registration  VALUES(1000,'10-07-2020',100,500);
+INSERT INTO  Registration  VALUES(1001,'10-01-2022',101,501);
+INSERT INTO  Registration  VALUES(1002,'09-30-2020',102,502);
+INSERT INTO  Registration  VALUES(1003,'09-01-2021',103,503);
+INSERT INTO  Registration  VALUES(1004,'08-05-2021',104,504);
+INSERT INTO  Registration  VALUES(1005,'03-12-2019',105,505);
+INSERT INTO  Registration  VALUES(1006,'11-01-2021',106,506);
+INSERT INTO  Registration  VALUES(1007,'09-01-2010',107,507);
+INSERT INTO  Registration  VALUES(1008,'09-01-2018',108,508);
+INSERT INTO  Registration  VALUES(1009,'11-11-2011',109,509);
+
