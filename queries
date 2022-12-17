@@ -1,0 +1,132 @@
+1)
+SELECT Patient_name,Diagnosis,Registration_date FROM Patient  INNER JOIN Diagnosis ON   Diagnosis.Patient_id=Patient.Patient_id INNER JOIN
+ Registration ON Registration.Patient_id=Patient.Patient_id WHERE 
+Registration_date like '%2020' and  diagnosis='coronavirus' ;
+
+2)
+SELECT Patient_name FROM Patient LEFT JOIN Hospital_service ON Hospital_service.Patient_id=Patient.Patient_id INNER JOIN
+ Operation ON Hospital_service.Service_id=Operation.Service_id
+INTERSECT
+SELECT Patient_name FROM Patient LEFT JOIN Hospital_service ON Hospital_service.Patient_id=Patient.Patient_id INNER JOIN
+ Medicine ON Hospital_service.Service_id=Medicine.Service_id GROUP BY Patient_name ;
+
+3)
+SELECT Patient_name FROM Patient INNER JOIN Hospital_service ON Hospital_service.Patient_id=Patient.Patient_id INNER JOIN
+ Treatment ON Hospital_service.Service_id=Treatment.Service_id
+UNION
+SELECT Patient_name FROM Patient INNER JOIN Hospital_service ON Hospital_service.Patient_id=Patient.Patient_id INNER JOIN
+ Medicine ON Hospital_service.Service_id=Medicine.Service_id GROUP BY Patient_name ;
+
+4)
+create trigger  "TT1"
+AFTER
+insert  on Hospital_test
+for each row
+declare
+pragma autonomous_transaction;
+begin
+if :new.test_type='hearing test' then
+    insert into Hospital_test(Test_number,Test_type,Test_cost) values(6100,'eye test',:new.test_cost*2);
+    commit;
+end if;
+end;
+INSERT INTO Hospital_test VALUES (6010,'hearing test',13000);
+SELECT * FROM Hospital_test;
+
+5)
+create or replace trigger "Delo"
+AFTER
+DELETE  on Payment
+for each row
+declare
+pragma autonomous_transaction;
+begin
+if :old.payment_method='insurance'  then
+insert into PAYMENT(Payment_id,Bill_number,Payment_method,Payment_amount) values(2309,9,'cash',:old.payment_amount);
+   commit;
+end if;
+end;
+DELETE FROM Payment WHERE Payment_method='insurance' AND Bill_number='6';
+SELECT * FROM Payment;
+
+6)
+Create or replace trigger "THIRD"
+AFTER
+UPDATE  on Physician
+for each row
+declare
+pragma autonomous_transaction;
+begin
+if :new.physician_salary=1000000   then
+    update Physician set physician_salary = :new.physician_salary * 2 where Physician_history=11;
+    commit;
+end if;
+end;
+UPDATE Physician
+SET Physician_salary = 1000000
+WHERE Physician_history = 2;
+SELECT * FROM Physician;
+
+7)
+SELECT COUNT(Patient_id) FROM Diagnosis RIGHT JOIN Hospital_test  ON Hospital_test.Test_number=Diagnosis.Test_number WHERE Test_type='blood' ;
+
+8)
+CREATE VIEW Abroad_operation AS SELECT Patient_id,Operation_place FROM Hospital_service 
+INNER JOIN Operation ON Hospital_service.Service_id=Operation.Service_id WHERE Operation_place NOT LIKE '%KZ%';
+SELECT * FROM Abroad_operation;
+
+9) 
+SELECT * FROM Abroad_operation WHERE Operation_place LIKE '%Ankara%';
+
+10)
+SELECT Physician_name, Physician_salary
+FROM  Physician
+WHERE Physician_salary > (SELECT AVG(Physician_salary) FROM Physician);
+
+11)
+SELECT Patient_id FROM Hospital_service WHERE EXISTS (SELECT Start_time,End_time FROM Treatment WHERE 
+Hospital_service.Service_id = Treatment.Service_id AND Start_time='09-30-2020' AND End_time='11-11-2020');
+
+12) 
+SELECT Nurse_name FROM Nurse 
+ WHERE Nurse_id = ANY (SELECT Nurse_id
+  FROM Room INNER JOIN Hospital_service ON Hospital_service.Service_id=Room.Service_id INNER JOIN 
+Diagnosis ON Diagnosis.Patient_id=Hospital_service.Patient_id
+  WHERE Diagnosis='cancer') ORDER BY Nurse_name;
+
+13)
+SELECT Nurse_name FROM Nurse
+WHERE Nurse_name IN (SELECT Receptionist_name FROM Receptionist);
+
+14)
+SELECT COUNT(Physician_id), Physician_history
+FROM Physician
+GROUP BY Physician_history
+HAVING COUNT(Physician_id) > 1;
+
+15)
+SELECT Physician_name,Department_name FROM Physician RIGHT JOIN Department  ON Department.Physician_id=Physician.Physician_id;
+
+16)
+SELECT Bill_number ,SUM(Test_cost+Service_cost) AS Total FROM Paid GROUP BY Bill_number
+
+17)
+CREATE VIEW Paid AS SELECT Bill_number,Test_cost,Service_cost,Patient_name FROM Hospital_test INNER JOIN Diagnosis ON Hospital_test.Test_number=Diagnosis.Test_number
+ INNER JOIN Hospital_service ON Hospital_service.Patient_id=Diagnosis.Patient_id LEFT JOIN Bill ON Bill.Patient_id=Diagnosis.Patient_id RIGHT JOIN 
+Patient ON Patient.Patient_id=Bill.Patient_id;
+
+18)
+SELECT Patient_id,Medicine_name FROM Hospital_service INNER JOIN Medicine ON 
+Hospital_service.Service_id=Medicine.Service_id WHERE Medicine_name='Notsep';
+
+19)
+SELECT Patient_name
+FROM Patient 
+WHERE Patient_id = ANY
+  (SELECT Patient_id
+  FROM Call);
+  
+20)
+SELECT * FROM Patient WHERE Patient_address LIKE '%Almaty%' ORDER BY Patient_name;
+ALTER TABLE Patient ADD Patient_age
+ALTER  table Patient drop column Patient_age
